@@ -1,0 +1,46 @@
+# equation of state 
+gamma           = 1.4           # for adiabatic eos 
+
+# simulation 
+tmax            = 5             # total time 
+stepmax         = -1            # -1: unlimitted
+CFL             = 0.5           # CFL number ( CFL < 1 ), dt depends on CFL
+integrator      = 2             # 1 : forward euler; 2 : rk2; 3: rk3
+
+# output
+# OutputDir       = /mnt/d/Linux/Document/cal_gaukuk/KH/double/r2048 
+OutputDir       = ./
+dtoutput        = 0.1           # output every dtoutput
+dataType        = 0             # 0: output cons; 1: output prim
+
+# domain size 
+xmin            = -0.5 
+xmax            = 0.5
+ymin            = -0.5
+ymax            = 0.5 
+zmin            = -0.5
+zmax            = 0.5 
+
+# mesh 
+NX              = 2048           # resolution on x   
+NY              = 2048           # resolution on y    
+NZ              = 1             # resolution on z  
+NGhost          = 2             # number of ghost cell 
+
+# boundary 
+# 0 for copy, 1 for periodic, 2 for reflective
+xleft           = 1              
+xright          = 1             
+yleft           = 1             
+yright          = 1             
+zleft           = 1             
+zright          = 1             
+
+# problem setup
+rhoIn           = 2.0           # 
+vxIn            = -0.5           # 
+rhoOut          = 1.0           #       
+vxOut           = 0.5          # 
+pressure        = 2.5           # 
+
+amp             = 0.05          # 

@@ -1,0 +1,65 @@
+# compile
+*.o
+*.out
+*.exe
+*.mod
+*.out_*
+
+# CMake / Make
+obj/
+bin/*
+
+# Python
+__pycache__/
+*.pyc
+*.ipynb
+*npy
+
+# data
+*.hdf5
+*.h5
+*.dat
+*.bin
+output_*
+./bin/*
+.pypkg/*/*
+*_0*
+*cons_*
+*prim*
+*log*
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
+*.pdf
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.gif
+
+# keep demo assets
+!demo/sod.png
+!demo/kh.gif
+!demo/wave.gif
+
+# Visualization outputs
+*.vtk
+*.vtu
+*.pvtu
+*.xdmf
+*.xmf
+
+# log
+*.log
+*.tmp
+
+# macOS
+.DS_Store
