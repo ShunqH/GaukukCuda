@@ -15,9 +15,9 @@ totalFrames = 51
 tlist = np.zeros(totalFrames) 
 englist = np.zeros(totalFrames)
 
-# ROOT = "/mnt/d/Linux/Document/cal_gaukuk/KH/double/"
-# path = ROOT + "r2048/"
-path = "../bin/"
+ROOT = "/mnt/d/Linux/Document/cal_gaukuk/KH/double/"
+path = ROOT + "r2048/"
+# path = "../bin/"
 sPath = path
 tag = "kh"
 
